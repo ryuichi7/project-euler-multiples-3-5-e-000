@@ -1,7 +1,7 @@
 class Multiples
 
   def initialize(int)
-    raise ArgumentError if int > 1000
+    raise ArgumentError if int == nil
     @int = int
   end
 
